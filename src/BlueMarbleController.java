@@ -12,7 +12,7 @@ import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.image.ImageView;
 
-public class SampleController {
+public class BlueMarbleController {
 
     @FXML // fx:id="imageView"
     private ImageView imageView; // Value injected by FXMLLoader
