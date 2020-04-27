@@ -5,6 +5,7 @@
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -34,12 +35,17 @@
       </Label>
       <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#toggleEnhancedView" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Holland-Exogrid-Jet-edges-cleaned-up.png" />
+            <Image url="@misty%20copeland.jpg" />
          </image>
          <VBox.margin>
             <Insets bottom="10.0" top="10.0" />
          </VBox.margin>
       </ImageView>
+      <TextField fx:id="caption" editable="false" focusTraversable="false">
+         <VBox.margin>
+            <Insets bottom="8.0" />
+         </VBox.margin>
+      </TextField>
       <DatePicker fx:id="datePicker" onAction="#updateImageView" />
       <HBox alignment="CENTER" spacing="14.0">
          <children>

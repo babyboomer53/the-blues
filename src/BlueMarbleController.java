@@ -1,14 +1,13 @@
 /**
- * Sample Skeleton for 'Sample.fxml' Controller Class
+ * Sample Skeleton for 'BlueMarble.fxml' Controller Class
  */
-
-//package application;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.RadioButton;
+import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.image.ImageView;
 
@@ -16,6 +15,9 @@ public class BlueMarbleController {
 
     @FXML // fx:id="imageView"
     private ImageView imageView; // Value injected by FXMLLoader
+
+    @FXML // fx:id="caption"
+    private TextField caption; // Value injected by FXMLLoader
 
     @FXML // fx:id="datePicker"
     private DatePicker datePicker; // Value injected by FXMLLoader
