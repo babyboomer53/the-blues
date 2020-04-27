@@ -10,7 +10,8 @@ public class Launcher extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("BlueMarble.fxml"));
         primaryStage.setTitle("Blue Marble");
-        primaryStage.setScene(new Scene(root, 400, 300));
+        //primaryStage.setScene(new Scene(root, 400, 300));
+        primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
 
