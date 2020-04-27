@@ -51,7 +51,7 @@ public class BlueMarbleController {
 
     @FXML
     void updateImageView(ActionEvent event) {
-
+    	
     }
 
 }

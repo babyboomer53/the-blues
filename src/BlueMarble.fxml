@@ -19,7 +19,7 @@
    <children>
       <Label text="The Big Blue Marble">
          <font>
-            <Font name="Arial Black" size="18.0" />
+            <Font name="Arial Black" size="24.0" />
          </font>
          <textFill>
             <LinearGradient endX="1.0" endY="1.0">
@@ -33,9 +33,9 @@
             </LinearGradient>
          </textFill>
       </Label>
-      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#toggleEnhancedView" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imageView" fitHeight="400.0" fitWidth="400.0" onMouseClicked="#toggleEnhancedView" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@misty%20copeland.jpg" />
+            <Image url="@Big%20Blue%20Marble.jpg" />
          </image>
          <VBox.margin>
             <Insets bottom="10.0" top="10.0" />
